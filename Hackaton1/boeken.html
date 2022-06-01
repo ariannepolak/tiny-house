@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Boeken</title>
+  </head>
+
+  <body>
+    <div class="parent">
+
+      <header>
+        <div class="header">
+         <img src="images/logo.png" alt="Logo" width="150px">
+        </div>
+      </header>
+
+      <nav>
+        <div class="navigation">
+          <ul>
+            <a href="index.html"><h3>HOME</h3></a>
+            <a href="impressie.html"><h3>IMPRESSIE</h3></a>
+            <a href="boeken.html"><h3>BOEKEN</h3></a>
+            <a href="contact.html"><h3>CONTACT</h3></a>
+          </ul>
+        </div>
+      </nav>
+
+      <main>
+        <div class="boeken">
+          <h1>Reserveer uw verblijf</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis aliquid ad blanditiis. Aut suscipit sint soluta voluptates cumque, accusantium ducimus amet doloremque maxime iusto eligendi, dolorem, repudiandae ipsum consectetur nostrum!</p>
+
+          <form>
+            <h2>Datum</h2>
+            <div class="container1">
+              <div>
+                <label for="aankomst">Aankomst</label><br>
+                <input type="date" name="aankomst" id="aankomst"><br>
+              </div>  
+              <div>
+                <label for="vertrek">Vertrek</label><br>
+                <input type="date" name="vertrek" id="vertrek"><br>
+              </div>
+              <div>
+                <label for="personen">Aantal personen</label>
+                <select id="personen" name="personen">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                </select><br>
+              </div>
+              <div>
+                <button type="submit">Controleer beschikbaarheid</button><br><br>
+              </div>
+            </div>  
+        
+            <h2>Personalia</h2>
+            <div class="container2">
+              <div>
+                <label for="voornaam">Voornaam</label><br>
+                <input type="text" name="name" id="voornaam" style="width:200px"><br>
+              </div>
+              <div>
+                <label for="achternaam">Achternaam</label><br>
+                <input type="text" name="name" id="achternaam" style="width:200px"><br>
+              </div>
+              <div>
+                <label for="email">E-mailadres</label><br>
+                <input type="email" name="email" id="mail" style="width:200px"><br>
+              </div>
+              <div>
+                <label for="telefoonnummer">Telefoonnummer</label><br>
+                <input type="tel" name="telefoonnummer" id="telefoonnummer" style="width:200px"><br>          
+              </div>
+              <div>
+                <label for="straat">Straat en huisnummer</label><br>
+                <input type="text" name="straat" id="straat" style="width:200px"><br>
+              </div>
+              <div>
+                <label for="postcode">Postcode</label><br>
+                <input type="text" name="postcode" id="postcode" style="width:200px"><br> 
+              </div>
+              <div>
+                <label for="plaats">Plaats</label><br>
+                <input type="text" name="plaats" id="plaats" style="width:200px"><br>
+              </div>
+              <div>
+                <label for="land">Land</label><br>
+                <input type="text" name="land" id="land" style="width:200px"><br> 
+              </div>
+              <div>
+                <label for="bericht">Bericht</label><br>
+                <textarea name="message" style="width:350px; height:200px;"></textarea><br>  
+              </div>
+            </div>
+
+            <div class="container1">
+              <div>
+                <label for="betaal">Betaalmiddel</label><br>
+                <select id="betaal" name="betaal" style="width:150px">
+                <option value="ideal">iDEAL</option>
+                <option value="paypal">PayPal</option>
+                <option value="creditcard">CreditCard</option>
+                </select><br>
+              </div>
+              <div>
+                <input type="checkbox" id="akkoord" name="akkoord">
+                <label for="akkoord">Ik ga akkoord met de algemene voorwaarden en het privacybeleid.</label><br>
+              </div>
+              <div>
+                <button type="submit">Verzenden</button>
+              </div>
+              <br>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <footer>
+        <div class="footercontainer">
+          <div>
+            <h2>MENU</h2>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="impressie.html">IMPRESSIE</a></li>
+              <li><a href="boeken.html">BOEKEN</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>VOLG ONS</h2>
+            <ul>
+              <li><a href="www.instagram.com">INSTAGRAM</a></li>
+              <li><a href="www.facebook.com">FACEBOOK</a></li>
+              <li><a href="www.twitter.com">TWITTER</a></li>
+            </ul>
+          </div>
+          <div>
+            <h2>BLIJF OP DE HOOGTE</h2>
+            <p>Wees als eerste op de hoogte van deals en ontvang last-minute aanbiedingen.</p>
+            <input type="email" name="email" id="email" value="E-mailadres"><br><br>
+            <button type="submit">Verzenden</button><br>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </body>
+  
+</html>
